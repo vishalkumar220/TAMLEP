@@ -1,0 +1,708 @@
+Script started on 2024-05-13 17:44:26+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="172" LINES="41"]
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/c/Users/vishal.kumar2/Desktop [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/c/Users/vishal.kumar2/Desktop[00m$ cd /mnt/G:\My Drive\Training\TAMLEP\Module_1\Assignment_1_1/[1PAssignment_1_1//Assignment_1_1/[1PModule_1/Assignment_1_1//Module_1/Assignment_1_1/[1PTAMLEP/Module_1/Assignment_1_1//TAMLEP/Module_1/Assignment_1_1/[1PTraining/TAMLEP/Module_1/Assignment_1_1//Training/TAMLEP/Module_1/Assignment_1_1/[1P[1@/[1P[1P[1@g[1@"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C      "
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1 [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1[00m$ ls
+[?2004l
+[0m[01;32m'1 Commands.txt'[0m  [01;32m'2 Git commands.txt'[0m   [34;42mGit_test[0m
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1 [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1[00m$ cd Git_test
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test[00m$ ls
+[?2004l
+[0m[34;42mTAMLEP_Assignment[0m
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test[00m$ cd TAMLEP_Assignment
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ ls
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git init
+[?2004l
+Reinitialized existing Git repository in /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/.git/
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ ls
+[?2004l
+[0m[01;32mfile1.c.txt[0m  [01;32mfile2.c.txt[0m  [01;32mfile3.c.txt[0m
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git add *.c
+[?2004l
+fatal: pathspec '*.c' did not match any files
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ gt[Kit add .
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git add LICENSE
+[?2004l
+fatal: pathspec 'LICENSE' did not match any files
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git commit -m 'Initial project version'
+[?2004l
+[main (root-commit) 69d2edd] Initial project version
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file1.c.txt
+ create mode 100644 file2.c.txt
+ create mode 100644 file3.c.txt
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git clone https://github.com/libgit2/libgit2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K     cd ..
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test[00m$ ls
+[?2004l
+[0m[34;42mTAMLEP_Assignment[0m  [34;42mlibgit2[0m
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test[00m$ cd libgit2
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2 [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2[00m$ ls
+[?2004l
+[0m[01;32mAUTHORS[0m         [01;32mCOPYING[0m    [01;32mSECURITY.md[0m   [34;42mci[0m     [34;42mdeps[0m  [34;42mexamples[0m  [01;32mgit.git-authors[0m  [01;32mpackage.json[0m  [34;42msrc[0m
+[01;32mCMakeLists.txt[0m  [01;32mREADME.md[0m  [01;32mapi.docurium[0m  [34;42mcmake[0m  [34;42mdocs[0m  [34;42mfuzzers[0m   [34;42minclude[0m          [34;42mscript[0m        [34;42mtests[0m
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2 [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2[00m$ 
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2 [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2[00m$ 
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2 [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2[00m$ git commit -m 'Initial project version'
+[?2004l
+^C
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2 [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2[00m$ [H[2J]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2 [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2[00m$ ls
+[?2004l
+[0m[01;32mAUTHORS[0m         [01;32mCOPYING[0m    [01;32mSECURITY.md[0m   [34;42mci[0m     [34;42mdeps[0m  [34;42mexamples[0m  [01;32mgit.git-authors[0m  [01;32mpackage.json[0m  [34;42msrc[0m
+[01;32mCMakeLists.txt[0m  [01;32mREADME.md[0m  [01;32mapi.docurium[0m  [34;42mcmake[0m  [34;42mdocs[0m  [34;42mfuzzers[0m   [34;42minclude[0m          [34;42mscript[0m        [34;42mtests[0m
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2 [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/libgit2[00m$ cd ..
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test[00m$ ls
+[?2004l
+[0m[34;42mTAMLEP_Assignment[0m  [34;42mlibgit2[0m
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test[00m$ cs [K[Kd TAMLEP_Assignment
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ ls
+[?2004l
+[0m[01;32mfile1.c.txt[0m  [01;32mfile2.c.txt[0m  [01;32mfile3.c.txt[0m
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git add .
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git [K[K[K[KTAMLEP_Assignment[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K     git commit -m 'Initial project version'
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ echo 'My Project' > README
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ echo 'My Project' > README[16Pgit status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git add README
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README[m
+
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ vim CONTRIBUTING.md
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;41r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[41;1H"CONTRIBUTING.md" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;? ]11;? [2;1H[94m~                                                                                                                                                                           [3;1H~                                                                                                                                                                           [4;1H~                                                                                                                                                                           [5;1H~                                                                                                                                                                           [6;1H~                                                                                                                                                                           [7;1H~                                                                                                                                                                           [8;1H~                                                                                                                                                                           [9;1H~                                                                                                                                                                           [10;1H~                                                                                                                                                                           [11;1H~                                                                                                                                                                           [12;1H~                                                                                                                                                                           [13;1H~                                                                                                                                                                           [14;1H~                                                                                                                                                                           [15;1H~                                                                                                                                                                           [16;1H~                                                                                                                                                                           [17;1H~                                                                                                                                                                           [18;1H~                                                                                                                                                                           [19;1H~                                                                                                                                                                           [20;1H~                                                                                                                                                                           [21;1H~                                                                                                                                                                           [22;1H~                                                                                                                                                                           [23;1H~                                                                                                                                                                           [24;1H~                                                                                                                                                                           [25;1H~                                                                                                                                                                           [26;1H~                                                                                                                                                                           [27;1H~                                                                                                                                                                           [28;1H~                                                                                                                                                                           [29;1H~                                                                                                                                                                           [30;1H~                                                                                                                                                                           [31;1H~                                                                                                                                                                           [32;1H~                                                                                                                                                                           [33;1H~                                                                                                                                                                           [34;1H~                                                                                                                                                                           [35;1H~                                                                                                                                                                           [36;1H~                                                                                                                                                                           [37;1H~                                                                                                                                                                           [38;1H~                                                                                                                                                                           [39;1H~                                                                                                                                                                           [40;1H~                                                                                                                                                                           [m[41;155H0,0-1[9CAll[1;1H[?25h[?25l[41;145H^[[1;1H[41;147H[[1;1H[41;148H>[1;1H[41;149H0[1;1H[41;150H;[1;1H[41;151H1[1;1H[41;152H0[1;1H[41;153H;[1;1H[41;145H         [1;1H[?12$p[?25h[?25l[41;145Hi[1;1H[41;145H [1;1H[41;1H[1m-- INSERT --[m[41;13H[K[41;155H0,1[11CAll[1;1H[?25h[?25lf[41;155H1,2[1;2H[?25h[?25lh[41;157H3[1;3H[?25h[?25ld[41;157H4[1;4H[?25h[?25ls[41;157H5[1;5H[?25h[?25l[1;4H[K[41;157H4[1;4H[?25h[?25l=[41;157H5[1;5H[?25h[?25l=[41;157H6[1;6H[?25h[?25l[1;5H[K[41;157H5[1;5H[?25h[?25l[1;4H[K[41;157H4[1;4H[?25h[?25l[1;3H[K[41;157H3[1;3H[?25h[?25l[1;2H[K[41;157H2[1;2H[?25h[?25l[1;1H[K[41;157H1[1;1H[?25h[?25lt[41;157H2[1;2H[?25h[?25le[41;157H3[1;3H[?25h[?25ls[41;157H4[1;4H[?25h[?25lt[41;157H5[1;5H[?25h[?25l[41;157H6[1;6H[?25h[?25l=[41;157H7[1;7H[?25h[?25li[41;157H8[1;8H[?25h[?25ln[41;157H9[1;9H[?25h[?25lg[41;157H10[1;10H[?25h[?25l[41;158H1[1;11H[?25h[?25l[41;158H0[1;10H[?25h[?25l[1;9H[K[41;157H9 [1;9H[?25h[?25l[1;8H[K[41;157H8[1;8H[?25h[?25l[1;7H[K[41;157H7[1;7H[?25h[?25l[1;6H[K[41;157H6[1;6H[?25h[?25l[41;157H5[1;5H[?25h[?25li[41;157H6[1;6H[?25h[?25ln[41;157H7[1;7H[?25h[?25lg[41;157H8[1;8H[?25h[?25l[41;157H9[1;9H[?25h[?25lg[41;157H10[1;10H[?25h[?25li[41;158H1[1;11H[?25h[?25lt[41;158H2[1;12H[?25h[41;1H[K[1;11H[?25l[41;145H^[[1;11H[41;145H  [1;12H[41;155H1,11[10CAll[1;11H[?25h[?25l[41;145H:[1;11H[41;145H[K[41;1H:[?25hwq
+[?25l[?2004l[>4;m"CONTRIBUTING.md" [New] 1L, 12B written
+[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mCONTRIBUTING.md[m
+
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git add CONTRIBUTING.md
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status -s
+[?2004l
+[32mA[m  CONTRIBUTING.md
+[32mA[m  README
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ cat .gitignore
+[?2004l
+cat: .gitignore: No such file or directory
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ mkdir .gitignore
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ mkdir .gitignore[2Pcat[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+cat: .gitignore: Is a directory
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git diff
+[?2004l
+[?1h=
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git diff --staged
+[?2004l
+[?1h=
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..c68bd6a[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mtesting git[m[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git add CONTRIBUTING.md
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ echo '# test line' >> CONTRIBUTING.md
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git diff
+[?2004l
+[?1h=
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mindex c68bd6a..68838a0 100644[m[m
+[1m--- a/CONTRIBUTING.md[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ testing git[m[m
+[32m+[m[32m# test line[m[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git diff --cached
+[?2004l
+[?1h=
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..c68bd6a[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mtesting git[m[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git commit
+[?2004l
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;80H(B[0;7m[ Reading... ](B[m[39;78H(B[0;7m[ Read 15 lines ](B[m[H(B[0;7m  GNU nano 6.2                       /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/.git/COMMIT_EDITMSG                                 [1;171H(B[m
+[40d(B[0;7m^G(B[m Help[40;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[40;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[40;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous
+[41d(B[0;7m^X(B[m Exit[41;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[41;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[41;120H(B[0;7mM-6(B[m Copy[41;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next
+[3d[36m# Please enter the commit message for your changes. Lines starting
+[4d# with '#' will be ignored, and an empty message aborts the commit.
+[5d#[6d# On branch main
+[7d# Your branch is based on 'origin/main', but the upstream is gone.
+[8d#   (use "git branch --unset-upstream" to fixup)
+[9d#[10d# Changes to be committed:
+[11d#[38;5;208m       [36mnew file:   CONTRIBUTING.md
+[12d#[38;5;208m       [36mnew file:   README
+[13d#[14d# Changes not staged for commit:
+[15d#[38;5;208m       [36mmodified:   CONTRIBUTING.md
+[16d#[2d[39m(B[m[?12l[?25h[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t
+[?1l>[?2004l
+[KAborting commit due to empty commit message.
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git commit -a -m "it[K[Kun[Kpdated script"
+[?2004l
+[main 70b80f7] updated script
+ 2 files changed, 3 insertions(+)
+ create mode 100644 CONTRIBUTING.md
+ create mode 100644 README
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ rm PROJECTS.md
+[?2004l
+rm: cannot remove 'PROJECTS.md': No such file or directory
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ mkdir [K[K[K[K[K[K       nano PROJECTS.md
+[?2004l
+[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;81H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                                                     PROJECTS.md                                                                              [1;171H(B[m
+[40d(B[0;7m^G(B[m Help[40;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[40;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[40;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous
+[41d(B[0;7m^X(B[m Exit[41;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[41;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[41;120H(B[0;7mM-6(B[m Copy[41;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next
+[2d[?12l[?25h[?25l[1;96H(B[0;7m*[171G(B[m[?12l[?25h
+[2dt[?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hg[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l
+[39d[K[?12l[?25h[2;13H[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25h [?25l[?12l[?25hg[?25l[?12l[?25ho[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[39;59H(B[0;7m[ line  1/2 (50%), col 12/12 (100%), char 11/12 (91%) ](B[m[?12l[?25h[2;12H[?25l
+[39d(B[0;7mSave modified buffer?                                                                                                                                                       [40;1H Y(B[m Yes[K
+[41d(B[0;7m N(B[m No  [41;17H(B[0;7m^C(B[m Cancel[K[39;23H[?12l[?25h[?25l
+[40d(B[0;7m^G(B[m Help[40;44H(B[0;7mM-D(B[m DOS Format[40;87H(B[0;7mM-A(B[m Append[40;130H(B[0;7mM-B(B[m Backup File
+[41d(B[0;7m^C(B[m Cancel[17G         [41;44H(B[0;7mM-M(B[m Mac Format[41;87H(B[0;7mM-P(B[m Prepend[41;130H(B[0;7m^T(B[m Browse
+[39d(B[0;7mFile Name to Write: PROJECTS.md(B[m[?12l[?25h[?25l[39;79H[1K (B[0;7m[ Writing... ](B[m[K[1;96H(B[0;7m [171G(B[m[39;79H(B[0;7m[ Wrote 1 line ](B[m
+[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ nano PROJECTS.md[2Prm[C[C[C[C[C[C[C[C[C[C[C[C[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[K git rm PROJECTS.md
+[?2004l
+fatal: pathspec 'PROJECTS.md' did not match any files
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ nano PROJECTS.md[2Prm[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ rm PROJECTS.md[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[2Prm[C[C[C[C[C[C[C[C[C[C[C[C[K git at[K[Kstt[Katus
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git rm --cached README
+[?2004l
+rm 'README'
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git rm log/\*.log
+[?2004l
+fatal: pathspec 'log/*.log' did not match any files
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git mv README.md README
+[?2004l
+fatal: bad source, source=README.md, destination=README
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mdeleted:    README[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ mv README.md README
+[?2004l
+mv: cannot stat 'README.md': No such file or directory
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git rm README.md
+[?2004l
+fatal: pathspec 'README.md' did not match any files
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ ls
+[?2004l
+[0m[01;32mCONTRIBUTING.md[0m  [01;32mREADME[0m  [01;32mfile1.c.txt[0m  [01;32mfile2.c.txt[0m  [01;32mfile3.c.txt[0m
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git add README
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git log
+[?2004l
+[?1h=
+[33mcommit 70b80f71583cd2409d4793ca22e4b8fe7084e67f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Vishalkumar2 <vsihal.kumar2@tigeranalytics.com>[m
+Date:   Mon May 13 18:06:15 2024 +0530[m
+[m
+    updated script[m
+[m
+[33mcommit 69d2eddf3506fe953cf85d175033bee633c3ce0b[m[m
+Author: Vishalkumar2 <vsihal.kumar2@tigeranalytics.com>[m
+Date:   Mon May 13 17:47:36 2024 +0530[m
+[m
+    Initial project version[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git log -p -2
+[?2004l
+[?1h=
+[33mcommit 70b80f71583cd2409d4793ca22e4b8fe7084e67f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Vishalkumar2 <vsihal.kumar2@tigeranalytics.com>[m
+Date:   Mon May 13 18:06:15 2024 +0530[m
+[m
+    updated script[m
+[m
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..68838a0[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32mtesting git[m[m
+[32m+[m[32m# test line[m[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+[m
+[33mcommit 69d2eddf3506fe953cf85d175033bee633c3ce0b[m[m
+Author: Vishalkumar2 <vsihal.kumar2@tigeranalytics.com>[m
+Date:   Mon May 13 17:47:36 2024 +0530[m
+[m
+    Initial project version[m
+[m
+[1mdiff --git a/file1.c.txt b/file1.c.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e69de29[m[m
+[1mdiff --git a/file2.c.txt b/file2.c.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e69de29[m[m
+[1mdiff --git a/file3.c.txt b/file3.c.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e69de29[m[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git log --stat
+[?2004l
+[?1h=
+[33mcommit 70b80f71583cd2409d4793ca22e4b8fe7084e67f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Vishalkumar2 <vsihal.kumar2@tigeranalytics.com>[m
+Date:   Mon May 13 18:06:15 2024 +0530[m
+[m
+    updated script[m
+[m
+ CONTRIBUTING.md | 2 [32m++[m[m
+ README          | 1 [32m+[m[m
+ 2 files changed, 3 insertions(+)[m
+[m
+[33mcommit 69d2eddf3506fe953cf85d175033bee633c3ce0b[m[m
+Author: Vishalkumar2 <vsihal.kumar2@tigeranalytics.com>[m
+Date:   Mon May 13 17:47:36 2024 +0530[m
+[m
+    Initial project version[m
+[m
+ file1.c.txt | 0[m
+ file2.c.txt | 0[m
+ file3.c.txt | 0[m
+ 3 files changed, 0 insertions(+), 0 deletions(-)[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git log --pretty=oneline
+[?2004l
+[?1h=
+[33m70b80f71583cd2409d4793ca22e4b8fe7084e67f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m updated script[m
+[33m69d2eddf3506fe953cf85d175033bee633c3ce0b[m Initial project version[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git log --pretty=format:"%h - %an, %ar : %s"
+[?2004l
+[?1h=
+70b80f7 - Vishalkumar2, 3 minutes ago : updated script[m
+69d2edd - Vishalkumar2, 22 minutes ago : Initial project version[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git log --pretty=format:"%h %s" --graph
+[?2004l
+[?1h=
+* 70b80f7 updated script[m
+* 69d2edd Initial project version[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git log --since=2.weeks
+[?2004l
+[?1h=
+[33mcommit 70b80f71583cd2409d4793ca22e4b8fe7084e67f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Vishalkumar2 <vsihal.kumar2@tigeranalytics.com>[m
+Date:   Mon May 13 18:06:15 2024 +0530[m
+[m
+    updated script[m
+[m
+[33mcommit 69d2eddf3506fe953cf85d175033bee633c3ce0b[m[m
+Author: Vishalkumar2 <vsihal.kumar2@tigeranalytics.com>[m
+Date:   Mon May 13 17:47:36 2024 +0530[m
+[m
+    Initial project version[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git commit --amend
+[?2004l
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;80H(B[0;7m[ Reading... ](B[m[39;78H(B[0;7m[ Read 15 lines ](B[m[H(B[0;7m  GNU nano 6.2                       /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/.git/COMMIT_EDITMSG                                 [1;171H(B[m
+[40d(B[0;7m^G(B[m Help[40;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[40;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[40;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous
+[41d(B[0;7m^X(B[m Exit[41;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[41;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[41;120H(B[0;7mM-6(B[m Copy[41;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next
+[2dupdated script
+[4d[36m# Please enter the commit message for your changes. Lines starting
+[5d# with '#' will be ignored, and an empty message aborts the commit.
+[6d#[7d# Date:      Mon May 13 18:06:15 2024 +0530
+[8d#[9d# On branch main
+[10d# Your branch is based on 'origin/main', but the upstream is gone.
+[11d#   (use "git branch --unset-upstream" to fixup)
+[12d#[13d# Changes to be committed:
+[14d#[38;5;208m       [36mnew file:   CONTRIBUTING.md
+[15d#[38;5;208m       [36mnew file:   README
+[16d#[2d[39m(B[m[?12l[?25h[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t
+[?1l>[?2004l
+[K[main 84b51f3] updated script
+ Date: Mon May 13 18:06:15 2024 +0530
+ 2 files changed, 3 insertions(+)
+ create mode 100644 CONTRIBUTING.md
+ create mode 100644 README
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git commit -m 'Initial commit'
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git add forgotten_file
+[?2004l
+fatal: pathspec 'forgotten_file' did not match any files
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ mkdir forgotten_file
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ mkdir forgotten_file[2@git add[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git commit --amend
+[?2004l
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;80H(B[0;7m[ Reading... ](B[m[39;78H(B[0;7m[ Read 15 lines ](B[m[H(B[0;7m  GNU nano 6.2                       /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/.git/COMMIT_EDITMSG                                 [1;171H(B[m
+[40d(B[0;7m^G(B[m Help[40;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[40;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[40;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous
+[41d(B[0;7m^X(B[m Exit[41;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[41;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[41;120H(B[0;7mM-6(B[m Copy[41;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next
+[2dupdated script
+[4d[36m# Please enter the commit message for your changes. Lines starting
+[5d# with '#' will be ignored, and an empty message aborts the commit.
+[6d#[7d# Date:      Mon May 13 18:06:15 2024 +0530
+[8d#[9d# On branch main
+[10d# Your branch is based on 'origin/main', but the upstream is gone.
+[11d#   (use "git branch --unset-upstream" to fixup)
+[12d#[13d# Changes to be committed:
+[14d#[38;5;208m       [36mnew file:   CONTRIBUTING.md
+[15d#[38;5;208m       [36mnew file:   README
+[16d#[2d[39m(B[m[?12l[?25h[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t
+[?1l>[?2004l
+[K[main e9a1630] updated script
+ Date: Mon May 13 18:06:15 2024 +0530
+ 2 files changed, 3 insertions(+)
+ create mode 100644 CONTRIBUTING.md
+ create mode 100644 README
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git add *
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git reset HEAD CONTRIBUTING.md
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git checkout -- CONTRIBUTING.md
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git add *
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git restore --staged CONTRIBUTING.md
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git restore --staged CONTRIBUTING.mdadd *[Kstatus
+[?2004l
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git restore CONTRIBUTING.md
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git remote -v
+[?2004l
+origin	https://github.com/visalkumar2/TAMLEP_Assignment.git (fetch)
+origin	https://github.com/visalkumar2/TAMLEP_Assignment.git (push)
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ cd grit
+[?2004l
+bash: cd: grit: No such file or directory
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git remote
+[?2004l
+origin
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git fetch pb
+[?2004l
+fatal: 'pb' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git push origin master
+[?2004l
+error: src refspec master does not match any
+[31merror: failed to push some refs to 'https://github.com/visalkumar2/TAMLEP_Assignment.git'
+[m[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git remote show origin
+[?2004l
+* remote origin
+  Fetch URL: https://github.com/visalkumar2/TAMLEP_Assignment.git
+  Push  URL: https://github.com/visalkumar2/TAMLEP_Assignment.git
+  HEAD branch: (unknown)
+  Local branch configured for 'git pull':
+    main merges with remote main
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git bray[Knch
+[?2004l
+[?1h=
+* [32mmain[m[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git branchremote show originpush origin master[K[K[K[K[Kain
+[?2004l
+Username for 'https://github.com': visalkumar2
+Password for 'https://visalkumar2@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/visalkumar2/TAMLEP_Assignment.git/'
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git push origin main[10Pbranchpush origin main
+[?2004l
+Username for 'https://github.com': vishal=    alkumar2
+Password for 'https://visalkumar2@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/visalkumar2/TAMLEP_Assignment.git/'
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git push origin main
+[?2004l
+Username for 'https://github.com': vishal   alkumat r2
+Password for 'https://visalkumar2@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/visalkumar2/TAMLEP_Assignment.git/'
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git push origin main
+[?2004l
+Username for 'https://github.com': visalkumar2
+Password for 'https://visalkumar2@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/visalkumar2/TAMLEP_Assignment.git/'
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git remote show origin
+[?2004l
+* remote origin
+  Fetch URL: https://github.com/visalkumar2/TAMLEP_Assignment.git
+  Push  URL: https://github.com/visalkumar2/TAMLEP_Assignment.git
+  HEAD branch: (unknown)
+  Local branch configured for 'git pull':
+    main merges with remote main
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git push -f -u origin main'[K
+[?2004l
+Username for 'https://github.com': visalkumar2
+Password for 'https://visalkumar2@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/visalkumar2/TAMLEP_Assignment.git/'
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ [H[2J]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git remote set-url origin https://github.com/vishalkumar220/TAMLEP_Assignment.git
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git remote -v
+[?2004l
+origin	https://github.com/vishalkumar220/TAMLEP_Assignment.git (fetch)
+origin	https://github.com/vishalkumar220/TAMLEP_Assignment.git (push)
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git push -f -u origin main
+[?2004l
+Username for 'https://github.com': visahl   halkumar220
+Password for 'https://vishalkumar220@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/vishalkumar220/TAMLEP_Assignment.git/'
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git chekc[K[Kco[Kkout -b test_project
+[?2004l
+Switched to a new branch 'test_project'
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch test_project
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git [K[K[K[K         git statuscheckout -b test_project[2Ppush -f -u origin main[13Premote -vset-url origin https://github.com/vishalkumar220/TAMLEP_Assignment.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/vishalkumar220/test 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+[?2004l
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git remote set-url origin https://github.com/vishalkumar220/test 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccheckout -b test_project[2Ppush -f -u origin main[K[K[K[Ktest_project
+[?2004l
+Username for 'https://github.com': vishalkumar220
+Password for 'https://vishalkumar220@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/vishalkumar220/test/'
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-05-13 18:24:31+05:30 [COMMAND_EXIT_CODE="128"]
+Script started on 2024-05-14 10:42:08+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="41"]
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git status
+[?2004l
+On branch test_project
+Your branch is up to date with 'origin/test_project'.
+
+nothing to commit, working tree clean
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git branhc[K[Kch
+[?2004l
+[?1h=
+  main[m[m
+* [32mtest_project[m[m
+
+[K[?1l>[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ git pusj[Kh -f -u origin test_project
+[?2004l
+Username for 'https://github.com': vishalkumar220
+Password for 'https://vishalkumar220@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/vishalkumar220/test/'
+[?2004h]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment[00m$ eix[K[Kxit
+[?2004l
+exit
+
+Script done on 2024-05-14 10:42:59+05:30 [COMMAND_EXIT_CODE="128"]
+Script started on 2024-05-14 13:30:56+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="41"]
+[?2004h(base) ]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test[00m$ ls
+[?2004l
+[0m[01;32mCONTRIBUTING.md[0m  [01;32mREADME[0m  [01;32mfile1.c.txt[0m  [01;32mfile2.c.txt[0m  [01;32mfile3.c.txt[0m
+[?2004h(base) ]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test[00m$ git staj[Ktus
+[?2004l
+On branch test_project
+Your branch is ahead of 'origin/test_project' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[?2004h(base) ]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test[00m$ git branch
+[?2004l
+[?1h=
+  main[m[m
+* [32mtest_project[m[m
+
+[K[?1l>[?2004h(base) ]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test[00m$ git remote -v
+[?2004l
+origin	https://github.com/vishalkumar220/test.git (fetch)
+origin	https://github.com/vishalkumar220/test.git (push)
+[?2004h(base) ]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test[00m$ [7mgit remote set-url origin  git@githu[27m[7mb[27m[7m.com:vishalkumar220/test.git[27m[A
+(base) ]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test[00m$ git remote set-url origin  git@github.com:vishalkumar220/test.git
+[?2004l
+[?2004h(base) ]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test[00m$ git remote set-url origin  git@github.com:vishalkumar220/test.git[A
+(base) ]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test[00m$ [C[C[C[C[C[C[C[C[C[C[C-v[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+origin	git@github.com:vishalkumar220/test.git (fetch)
+origin	git@github.com:vishalkumar220/test.git (push)
+[?2004h(base) ]0;vishalkumar2@TIGER04702: /mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test [01;32mvishalkumar2@TIGER04702[00m:[01;34m/mnt/g/My Drive/Training/TAMLEP/Module_1/Assignment_1_1/Git_test/TAMLEP_Assignment/test[00m$ git push -f -u origin [7mtest_project[27mtest_project
+[?2004l
+
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+Di
